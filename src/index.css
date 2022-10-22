@@ -1,13 +1,17 @@
-   /* Basic Style */
-   body {
+  /* Basic Style */
+  body {
     background: #fff;
     color: #333;
     font-family: Lato, sans-serif;
   }
+  header{
+      margin-top: 50px;
+      text-align: center;
+  }
   .container {
     display: block;
     width: 400px;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
   }
   ul {
     margin: 0;
