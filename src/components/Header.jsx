@@ -22,6 +22,13 @@ Header.defaultProps = {
 Header.propTypes = {
   text: PropTypes.string,
   bgColor: PropTypes.string,
+  todo: PropTypes.arrayOf(
+    Proptypes.shape({
+      id: PropTypes.number.isRequired,
+      text: PropTypes.string.isRequired,
+      done: PropTypes.bool.isRequired
+    })
+  )
 };
 
 export default Header;
