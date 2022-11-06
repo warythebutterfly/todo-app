@@ -1,3 +1,5 @@
+We've been tasked with creating a proof-of-concept in React – an app that allows users to add, edit, and delete tasks they want to work on, and also mark tasks as complete without deleting them. My lessons at MidroHub Academy will walk you through putting the basic App component structure and styling in place, ready for individual component definition and interactivity, which we'll add later.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
